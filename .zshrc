@@ -17,7 +17,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # Everything to do with local paths goes in here
-source ./.paths.sh
+source ~/.paths.sh
 
 # brew install thefuck for this piece of awesomeness
 alias fuck='$(thefuck $(fc -ln -1))'
